@@ -58,7 +58,7 @@ public class StudentController {
 
 
 
-    // UPDATE (PUT)
+    // UPDATE (PUT request)
     @PutMapping("/{id}")
     public ResponseEntity<Student> updateStudent(
             @PathVariable Long id,
